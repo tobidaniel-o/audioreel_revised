@@ -1,8 +1,13 @@
 import React from 'react'
+import Navigation from '../Navigation/Navigation'
+import './Header.scss'
 
-const Header = () => {
+const Header = ({headerName}) => {
   return (
-    <header>Header</header>
+    <div className='header'>
+        <Navigation />
+        <h1>{headerName}</h1>
+    </div>
   )
 }
 
