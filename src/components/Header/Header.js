@@ -4,7 +4,7 @@ import './Header.scss'
 
 const Header = ({headerName}) => {
   return (
-    <div className='header'>
+    <div className='header-container'>
         <Navigation />
         <h1>{headerName}</h1>
     </div>

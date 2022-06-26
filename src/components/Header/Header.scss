@@ -1,7 +1,12 @@
-.header {
+.header-container {
+    background-color: #000000;
     
     h1 {
+        text-align: center;
         text-transform: uppercase;
         font-weight: 700;
+        color: #ffffff;
+        padding-top: 3rem;
+        padding-bottom: 6rem;
     }
 }
