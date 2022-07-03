@@ -11,11 +11,11 @@ const Navigation = () => {
           <a href='/'>audioreel</a>
         </span>
         <ul className='nav-bar-list'>
-          <li><a href='/'>Home</a></li>
-          <li><a href='/'>Headphones</a></li>
-          <li><a href='/'>Speakers</a></li>
-          <li><a href='/'>Earphones</a></li>
-          <li><a href='/'>Sign in</a></li>
+          <li className='nav-link'><a href='/'>Home</a></li>
+          <li className='nav-link'><a href='/'>Headphones</a></li>
+          <li className='nav-link'><a href='/'>Speakers</a></li>
+          <li className='nav-link'><a href='/'>Earphones</a></li>
+          <li className='nav-link'><a href='/'>Sign in</a></li>
         </ul>
         <CartIcon />
       </nav>
