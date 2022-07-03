@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import Button from '../Button/Button'
 import './NewProductDetails.scss'
 
 const NewProductDetails = () => {
@@ -17,6 +18,7 @@ const NewProductDetails = () => {
                 <p className='productIntro'>
                     Experience natural, lifelike audio and exceptional <br/>build quality made for the passionate music <br/>enthusiast. 
                 </p>
+                <Button label="see product"/>
             </div>
         </div>
     </Fragment>
