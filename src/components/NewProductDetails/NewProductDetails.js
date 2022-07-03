@@ -18,7 +18,7 @@ const NewProductDetails = () => {
                 <p className='productIntro'>
                     Experience natural, lifelike audio and exceptional <br/>build quality made for the passionate music <br/>enthusiast. 
                 </p>
-                <Button label="see product"/>
+                <Button type="submit">See product</Button>
             </div>
         </div>
     </Fragment>
