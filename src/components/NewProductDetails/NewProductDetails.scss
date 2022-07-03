@@ -1,0 +1,27 @@
+.hdProdDetailsContainer {   
+    width: 50%; 
+    margin: 10rem 0;
+
+    .newProduct {
+        text-transform: uppercase;
+        font-size: 1rem;
+        letter-spacing: 10px;
+        font-weight: 700;
+        color: #C4C4C4
+    }
+    
+    .productName{
+        text-transform: uppercase;
+        font-size: 3.5rem;
+        font-weight: bold;
+        color: #ffffff;
+        letter-spacing: 1.5px;
+        padding: 2.5rem 0;
+    }
+    
+    .productIntro {
+        letter-spacing: 1.5px;
+        color: #C4C4C4;
+        line-height: 25px;
+    }
+}

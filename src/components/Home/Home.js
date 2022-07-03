@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import Navigation from '../Navigation/Navigation'
+import NewProductDetails from '../NewProductDetails/NewProductDetails'
 import './Home.scss'
 
 
@@ -9,6 +10,7 @@ const Home = () => {
     <Fragment>
         <header>
             <Navigation />
+            <NewProductDetails />
         </header>
     </Fragment>
   )
