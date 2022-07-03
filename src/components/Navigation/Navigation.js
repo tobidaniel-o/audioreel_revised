@@ -7,12 +7,15 @@ const Navigation = () => {
   return (
     <div className="wrapper">
       <nav className='nav-bar'>
-        <Logo />
+        <span className='logo'>
+          <a href='/'>audioreel</a>
+        </span>
         <ul className='nav-bar-list'>
-          <li>Home</li>
-          <li>Headphones</li>
-          <li>Speakers</li>
-          <li>Earphones</li>
+          <li><a href='/'>Home</a></li>
+          <li><a href='/'>Headphones</a></li>
+          <li><a href='/'>Speakers</a></li>
+          <li><a href='/'>Earphones</a></li>
+          <li><a href='/'>Sign in</a></li>
         </ul>
         <CartIcon />
       </nav>
