@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import MainSection from '../MainSection/MainSection'
 import Navigation from '../Navigation/Navigation'
 import NewProductDetails from '../NewProductDetails/NewProductDetails'
 import ThumbnailSection from '../ThumbnailSection/ThumbnailSection'
@@ -14,6 +15,7 @@ const Home = () => {
             <NewProductDetails />
         </header>
         <ThumbnailSection />
+        <MainSection />
     </Fragment>
   )
 }
