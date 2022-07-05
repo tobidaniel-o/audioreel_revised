@@ -5,7 +5,8 @@
     background-color: #d87d4a;
     background-size: cover;
     background-position: 50%;
-    padding-top: 5rem;
+    padding-top: 3rem;
+    border-radius: 5px;
 
     .section1-img-container {
         width: 350px;
@@ -32,5 +33,24 @@
             color: #ffffff;
             font-weight: bold;
         }
+    }
+}
+
+.section2 {
+    background-image: url('../../assets/home/desktop/image-speaker-zx7.jpg');
+    height: 320px;
+    background-size: cover;
+    background-position: 50%;
+    margin-top: 4rem;
+    border-radius: 5px;
+    padding-left: 10rem;
+    padding-top: 4rem;
+
+    .section2-title {
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
     }
 }
