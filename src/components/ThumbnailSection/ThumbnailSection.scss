@@ -1,11 +1,11 @@
 .category-container {
     display: flex;
     list-style-type: none;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-left: 0;
     text-align: center;
-    margin-top: 13rem;
-    margin-bottom: 10rem;
+    margin-top: 9rem;
+    margin-bottom: 4rem;
 
     .category-item-details {
         background-color: #f1f1f1;
@@ -13,7 +13,8 @@
         border-radius: 5px;
         position: relative;
         height: 250px;
-        width: 350px;
+        // width: 350px;
+        width: calc(33.33% - 20px);
 
         .category-img {
             width: 300px;
@@ -32,7 +33,7 @@
             letter-spacing: 2px;
             font-weight: bold;
             position: relative;
-            top: -80px;
+            top: -70px;
     
             .shop-item {
                 display: flex;

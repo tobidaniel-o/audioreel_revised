@@ -15,7 +15,12 @@ const MainSection = () => {
                 <Button type="button" buttonType="zx9Speaker">See product</Button>
             </div>
         </section>
-        <section></section>
+        <section className='section2'>
+            <div>
+                <p className='section2-title'>zx7 speaker</p>
+                <Button type="button" buttonType="zx7Speaker">See product</Button>
+            </div>
+        </section>
         <section></section>
     </main>
   )

@@ -4,7 +4,8 @@ import './Button.scss'
 const BUTTON_TYPE_CLASSES = {
     google: 'google-sign-in',
     inverted: 'inverted',
-    zx9Speaker: 'zx9-speaker' 
+    zx9Speaker: 'zx9-speaker',
+    zx7Speaker: 'zx7-speaker'
 }
 
 const Button = ({children, buttonType, ...otherProps}) => {
